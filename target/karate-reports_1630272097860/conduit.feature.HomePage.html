@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>conduit.feature.HomePage</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-08-29 04:20:45 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Get all tags</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:9]"><span>[2:9]</span> <span>Get 10 articles from the page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduit/feature/HomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test for the home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Get all tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3181</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">16:20:42.380 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3180</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">16:20:42.708 request:
+1 &gt; GET https://conduit.productionready.io/api/tags
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:20:45.607 response time in milliseconds: 2898
+1 &lt; 200
+1 &lt; Date: Sun, 29 Aug 2021 21:20:46 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;cf72b98ddc242dee0a5748a5b4e4dec9&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 59f1a220-c21b-4852-99c0-fa7623c511db
+1 &lt; x-runtime: 2.335913
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sTXHStvUmGMQg4VEs75rjYW6963POSfXM2pYWxgfwU8JSiomZbDCSPzNd%2BivJuSN3gjRPkNUaO2lmkok48Rv1sV1TTi53J%2F5jrJorBiyVrI32JcqtW32UK3uPUuRFv3k9%2BJDql57ZnY3ElUX5A%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6868d32f19be3edc-BOG
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;tags&quot;:[&quot;Сartооn&quot;,&quot;Оld/Yоung&quot;,&quot;bоndаgе&quot;,&quot;Віg Аss&quot;,&quot;hеntаі&quot;,&quot;МІLF&quot;,&quot;Віg Dісk&quot;,&quot;Fеmаlе Оrgаsm&quot;,&quot;Mаturе&quot;,&quot;gау&quot;,&quot;Аmаtеur&quot;,&quot;Thrееsоmе&quot;,&quot;аnаl&quot;,&quot;Jаpаnеsе&quot;,&quot;Bіg Тіts&quot;,&quot;рublіс&quot;,&quot;Еbоnу&quot;,&quot;Lеsbіаn&quot;,&quot;Tееn&quot;,&quot;russіаn&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:9]</span>
+                <span class="scenario-name">Get 10 articles from the page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1074</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param limit = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">16:20:42.380 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param offset = 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/articles?limit=10&amp;offset=0&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1072</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">16:20:42.708 request:
+1 &gt; GET https://conduit.productionready.io/api/articles?limit=10&amp;offset=0&amp;offset=0&amp;limit=10
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:20:43.462 response time in milliseconds: 747
+1 &lt; 200
+1 &lt; Date: Sun, 29 Aug 2021 21:20:43 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; cache-control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;8d206ce333d8ea271b7c3d235d152d5a&quot;
+1 &lt; status: 200 OK
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-powered-by: Phusion Passenger 4.0.60
+1 &lt; x-request-id: 04006f06-4a5c-4d2c-a38a-aec028b3dabe
+1 &lt; x-runtime: 0.288931
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Fw%2FuWew5pydSToQuVRiL0Rn86zEEMChC3c5pFr3k%2FlRIobTKuqzVkyBUtmfw3x%2F4dz76LB5XFBcMrkDrqpzBmPX3yEPByYw%2FfC2x8ctTMqw5%2BIzKiijNVz6lDc116R1%2FYTZpERV4beHHeR%2BmBg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 6868d32f1909f26b-BOG
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400, h3=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;title&quot;:&quot;Grupo Primo&quot;,&quot;slug&quot;:&quot;grupo-primo-an5gv0&quot;,&quot;body&quot;:&quot;Follow @thiago.nigro on Instagram&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:17:07.608Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:17:07.608Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Best investment and entrepreneur content&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Grupo Primo&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;DeleteArticle&quot;,&quot;slug&quot;:&quot;deletearticle-dqussa&quot;,&quot;body&quot;:&quot;Learning&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:16:57.856Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:16:57.856Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Learning&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;karateapi1234&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;DeleteArticle&quot;,&quot;slug&quot;:&quot;deletearticle-yjo4h0&quot;,&quot;body&quot;:&quot;Learning&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:15:08.062Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:15:08.062Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Learning&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;karateapi1234&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;DeleteArticle&quot;,&quot;slug&quot;:&quot;deletearticle-qmugar&quot;,&quot;body&quot;:&quot;Learning&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:10:09.290Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:10:09.290Z&quot;,&quot;tagList&quot;:[],&quot;description&quot;:&quot;Learning&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;karateapi1234&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-voe2b5&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:05:23.308Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:05:23.308Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy969401519&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-y5h2ym&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:05:18.071Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:05:18.071Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy861016069&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:1},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-ne1u3t&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:05:16.775Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:05:16.775Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy689087276&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Григорий Лепс&quot;,&quot;slug&quot;:&quot;-pa8ege&quot;,&quot;body&quot;:&quot;Самый лучший день заходил вчера\nНочью ехать лень - пробыл до утра\nНо пришла пора и собрался в путь\nНу и ладно, будь...&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:04:39.872Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:04:39.872Z&quot;,&quot;tagList&quot;:[&quot;Григорий Лепс&quot;],&quot;description&quot;:&quot;Самый лучший день&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;Shrek_check&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://sun9-13.userapi.com/impf/c851324/v851324954/3c67a/gEOKbVLu33o.jpg?size=960x720\u0026quality=96\u0026sign=b9c7d4110692dcc16a9466aa7fb074ea\u0026type=album&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-x0tobm&quot;,&quot;body&quot;:&quot;Test can edit an article. https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:04:18.703Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:04:20.655Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy456406882&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:1},{&quot;title&quot;:&quot;Article created by Cypress test&quot;,&quot;slug&quot;:&quot;article-created-by-cypress-test-81gn1o&quot;,&quot;body&quot;:&quot;This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example&quot;,&quot;createdAt&quot;:&quot;2021-08-29T21:04:17.748Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-29T21:04:17.748Z&quot;,&quot;tagList&quot;:[&quot;test-automation&quot;,&quot;simple&quot;,&quot;cypress&quot;],&quot;description&quot;:&quot;https://github.com/helenanull/cypress-example&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;cy940820306&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://static.productionready.io/images/smiley-cyrus.jpg&quot;,&quot;following&quot;:false},&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0}],&quot;articlesCount&quot;:500}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

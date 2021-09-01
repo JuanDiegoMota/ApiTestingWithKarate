@@ -1,0 +1,631 @@
+12:43:07.297 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:43:08.148 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:43:08.446 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://condouit.productionready.io/api/tags
+1 > Host: condouit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:43:08.524 [pool-1-thread-1] ERROR com.intuit.karate - java.net.UnknownHostException: Host desconocido (condouit.productionready.io), http call failed after 336 milliseconds for url: https://condouit.productionready.io/api/tags
+12:43:08.525 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:5
+When method Get
+http call failed after 336 milliseconds for url: https://condouit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:5
+12:43:09.032 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+12:43:16.809 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:43:16.820 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630258996819
+12:43:17.675 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:43:17.977 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://condouit.productionready.io/api/tags
+1 > Host: condouit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:43:18.049 [pool-1-thread-1] ERROR com.intuit.karate - java.net.UnknownHostException: Host desconocido (condouit.productionready.io), http call failed after 336 milliseconds for url: https://condouit.productionready.io/api/tags
+12:43:18.050 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:5
+When method Get
+http call failed after 336 milliseconds for url: https://condouit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:5
+12:43:18.607 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+12:45:16.717 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:45:16.722 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630259116721
+12:45:17.619 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:45:17.927 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:45:20.978 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3048
+1 < 200
+1 < Date: Sun, 29 Aug 2021 17:45:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"cf72b98ddc242dee0a5748a5b4e4dec9"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 0494e40a-2bbc-4eff-bce7-0b9117a8f14f
+1 < x-runtime: 2.187310
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H%2B%2BMHboeK7l9%2B%2FKzv4AlcnHWXf49uZS7cDNAZiqwIPodLdGQ%2B0ggPXubtgpYFidv6Hrt6YSNPdniYcMpuwqzeSiOQJWJajJwNQ%2F%2FENVOVoBsifqo8czFt6xVYKnwRQPus0eYBPyjR6%2Fco9viMw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 686797a219d3b576-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["Сartооn","Оld/Yоung","bоndаgе","Віg Аss","hеntаі","МІLF","Віg Dісk","Fеmаlе Оrgаsm","Mаturе","gау","Аmаtеur","Thrееsоmе","аnаl","Jаpаnеsе","Bіg Тіts","рublіс","Еbоnу","Lеsbіаn","Tееn","russіаn"]}
+12:45:21.449 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:19:45.224 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:19:45.229 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630271985228
+16:19:46.333 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:19:46.333 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:19:46.719 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?limit=10&offset=0
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:19:46.719 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:19:47.827 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1105
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:19:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"8d206ce333d8ea271b7c3d235d152d5a"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 6885f2ac-e211-4453-92ea-b97e41eca564
+1 < x-runtime: 0.415907
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JPMZ3EODq268lriAUSiN3vv55LUzdmZuLDIm%2BJaAQjkqmrV%2BVuF%2FZKMnrLKQZBO1X9ARC9gHOrVJDS0mRxoQAGBDPQ%2BS0mQKhpvYI02FvGjSr6ih72HDSaMnP5e8adh4XdO3gzEavDKZXvb3tQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d1d118e23ecd-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Grupo Primo","slug":"grupo-primo-an5gv0","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-29T21:17:07.608Z","updatedAt":"2021-08-29T21:17:07.608Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-dqussa","body":"Learning","createdAt":"2021-08-29T21:16:57.856Z","updatedAt":"2021-08-29T21:16:57.856Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-yjo4h0","body":"Learning","createdAt":"2021-08-29T21:15:08.062Z","updatedAt":"2021-08-29T21:15:08.062Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-qmugar","body":"Learning","createdAt":"2021-08-29T21:10:09.290Z","updatedAt":"2021-08-29T21:10:09.290Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-voe2b5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:23.308Z","updatedAt":"2021-08-29T21:05:23.308Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy969401519","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-y5h2ym","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:18.071Z","updatedAt":"2021-08-29T21:05:18.071Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy861016069","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ne1u3t","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:16.775Z","updatedAt":"2021-08-29T21:05:16.775Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy689087276","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Григорий Лепс","slug":"-pa8ege","body":"Самый лучший день заходил вчера\nНочью ехать лень - пробыл до утра\nНо пришла пора и собрался в путь\nНу и ладно, будь...","createdAt":"2021-08-29T21:04:39.872Z","updatedAt":"2021-08-29T21:04:39.872Z","tagList":["Григорий Лепс"],"description":"Самый лучший день","author":{"username":"Shrek_check","bio":null,"image":"https://sun9-13.userapi.com/impf/c851324/v851324954/3c67a/gEOKbVLu33o.jpg?size=960x720\u0026quality=96\u0026sign=b9c7d4110692dcc16a9466aa7fb074ea\u0026type=album","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-x0tobm","body":"Test can edit an article. https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:18.703Z","updatedAt":"2021-08-29T21:04:20.655Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy456406882","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-81gn1o","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:17.748Z","updatedAt":"2021-08-29T21:04:17.748Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy940820306","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+16:19:49.724 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3004
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:19:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"cf72b98ddc242dee0a5748a5b4e4dec9"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: a8fbae25-d012-4858-bd57-2a2d2cbef9b7
+1 < x-runtime: 2.328451
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E7hNHnL0phFGiHHJxZSsmBnsIiMBlbG%2BEmfJBj%2FM3NmzOnKEz8KKxNSlV6xNCEgLSL8VpHq4JiihcS%2F%2B1mHL2I%2BK30aOYc45j%2FtDShYnBHxP5XZWQwLj%2FbQV7WGmS%2B30nj8obavYfNKplnI%2FRA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d1d119c53eeb-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["Сartооn","Оld/Yоung","bоndаgе","Віg Аss","hеntаі","МІLF","Віg Dісk","Fеmаlе Оrgаsm","Mаturе","gау","Аmаtеur","Thrееsоmе","аnаl","Jаpаnеsе","Bіg Тіts","рublіс","Еbоnу","Lеsbіаn","Tееn","russіаn"]}
+16:19:50.297 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:20:41.350 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:20:41.355 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630272041354
+16:20:42.376 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:42.376 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:42.708 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?limit=10&offset=0&offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:20:42.708 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:20:43.459 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 747
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:20:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"8d206ce333d8ea271b7c3d235d152d5a"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 04006f06-4a5c-4d2c-a38a-aec028b3dabe
+1 < x-runtime: 0.288931
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Fw%2FuWew5pydSToQuVRiL0Rn86zEEMChC3c5pFr3k%2FlRIobTKuqzVkyBUtmfw3x%2F4dz76LB5XFBcMrkDrqpzBmPX3yEPByYw%2FfC2x8ctTMqw5%2BIzKiijNVz6lDc116R1%2FYTZpERV4beHHeR%2BmBg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d32f1909f26b-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Grupo Primo","slug":"grupo-primo-an5gv0","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-29T21:17:07.608Z","updatedAt":"2021-08-29T21:17:07.608Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-dqussa","body":"Learning","createdAt":"2021-08-29T21:16:57.856Z","updatedAt":"2021-08-29T21:16:57.856Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-yjo4h0","body":"Learning","createdAt":"2021-08-29T21:15:08.062Z","updatedAt":"2021-08-29T21:15:08.062Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-qmugar","body":"Learning","createdAt":"2021-08-29T21:10:09.290Z","updatedAt":"2021-08-29T21:10:09.290Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-voe2b5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:23.308Z","updatedAt":"2021-08-29T21:05:23.308Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy969401519","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-y5h2ym","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:18.071Z","updatedAt":"2021-08-29T21:05:18.071Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy861016069","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ne1u3t","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:16.775Z","updatedAt":"2021-08-29T21:05:16.775Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy689087276","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Григорий Лепс","slug":"-pa8ege","body":"Самый лучший день заходил вчера\nНочью ехать лень - пробыл до утра\nНо пришла пора и собрался в путь\nНу и ладно, будь...","createdAt":"2021-08-29T21:04:39.872Z","updatedAt":"2021-08-29T21:04:39.872Z","tagList":["Григорий Лепс"],"description":"Самый лучший день","author":{"username":"Shrek_check","bio":null,"image":"https://sun9-13.userapi.com/impf/c851324/v851324954/3c67a/gEOKbVLu33o.jpg?size=960x720\u0026quality=96\u0026sign=b9c7d4110692dcc16a9466aa7fb074ea\u0026type=album","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-x0tobm","body":"Test can edit an article. https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:18.703Z","updatedAt":"2021-08-29T21:04:20.655Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy456406882","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-81gn1o","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:17.748Z","updatedAt":"2021-08-29T21:04:17.748Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy940820306","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+16:20:45.606 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2898
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:20:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"cf72b98ddc242dee0a5748a5b4e4dec9"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 59f1a220-c21b-4852-99c0-fa7623c511db
+1 < x-runtime: 2.335913
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sTXHStvUmGMQg4VEs75rjYW6963POSfXM2pYWxgfwU8JSiomZbDCSPzNd%2BivJuSN3gjRPkNUaO2lmkok48Rv1sV1TTi53J%2F5jrJorBiyVrI32JcqtW32UK3uPUuRFv3k9%2BJDql57ZnY3ElUX5A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d32f19be3edc-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["Сartооn","Оld/Yоung","bоndаgе","Віg Аss","hеntаі","МІLF","Віg Dісk","Fеmаlе Оrgаsm","Mаturе","gау","Аmаtеur","Thrееsоmе","аnаl","Jаpаnеsе","Bіg Тіts","рublіс","Еbоnу","Lеsbіаn","Tееn","russіаn"]}
+16:20:46.142 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:21:37.856 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:21:37.861 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630272097860
+16:21:38.866 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:21:38.866 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:21:39.276 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?limit=10&offset=0&offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:21:39.276 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:21:40.404 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1125
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:21:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"8d206ce333d8ea271b7c3d235d152d5a"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 825fb35f-47a2-4138-8f34-10368a6901be
+1 < x-runtime: 0.410243
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JtExOlWSHnF32avNaCU5dAe7tPvqy59%2BUpZVLpHCiONb57Pv%2Bl%2BV1xQzELAtSMo7qeaiXnnBDspY%2FYVUcD6MXVtDshJPUzwN6oxpnjB8fdKk5%2BQ5bqPZDJ%2BruCZg07ICKaV38Mr9sG8ILTQGYA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d4917a2e3efa-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"Grupo Primo","slug":"grupo-primo-an5gv0","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-29T21:17:07.608Z","updatedAt":"2021-08-29T21:17:07.608Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-dqussa","body":"Learning","createdAt":"2021-08-29T21:16:57.856Z","updatedAt":"2021-08-29T21:16:57.856Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-yjo4h0","body":"Learning","createdAt":"2021-08-29T21:15:08.062Z","updatedAt":"2021-08-29T21:15:08.062Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"DeleteArticle","slug":"deletearticle-qmugar","body":"Learning","createdAt":"2021-08-29T21:10:09.290Z","updatedAt":"2021-08-29T21:10:09.290Z","tagList":[],"description":"Learning","author":{"username":"karateapi1234","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-voe2b5","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:23.308Z","updatedAt":"2021-08-29T21:05:23.308Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy969401519","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-y5h2ym","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:18.071Z","updatedAt":"2021-08-29T21:05:18.071Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy861016069","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ne1u3t","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:05:16.775Z","updatedAt":"2021-08-29T21:05:16.775Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy689087276","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Григорий Лепс","slug":"-pa8ege","body":"Самый лучший день заходил вчера\nНочью ехать лень - пробыл до утра\nНо пришла пора и собрался в путь\nНу и ладно, будь...","createdAt":"2021-08-29T21:04:39.872Z","updatedAt":"2021-08-29T21:04:39.872Z","tagList":["Григорий Лепс"],"description":"Самый лучший день","author":{"username":"Shrek_check","bio":null,"image":"https://sun9-13.userapi.com/impf/c851324/v851324954/3c67a/gEOKbVLu33o.jpg?size=960x720\u0026quality=96\u0026sign=b9c7d4110692dcc16a9466aa7fb074ea\u0026type=album","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-x0tobm","body":"Test can edit an article. https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:18.703Z","updatedAt":"2021-08-29T21:04:20.655Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy456406882","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-81gn1o","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-29T21:04:17.748Z","updatedAt":"2021-08-29T21:04:17.748Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy940820306","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+16:21:42.419 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3142
+1 < 200
+1 < Date: Sun, 29 Aug 2021 21:21:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"cf72b98ddc242dee0a5748a5b4e4dec9"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 6a40ae75-e208-42c6-a08e-5f839637ce58
+1 < x-runtime: 2.445993
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wg2i5kTLkKf%2BGXgHmgfyLjsdrkn1YyRrJPvIYkj3aH3oXPwadJkeZ7N0N%2FspLygd53hIAS8p%2BTMk1tFQxAMyLWcuX%2FBkBzapQWhWyoEKffKECOl%2FyeKoqFoJsdl%2F7tw5lhqRZy1F%2Fz5MeRLT6Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6868d4917ed93ef5-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"tags":["Сartооn","Оld/Yоung","bоndаgе","Віg Аss","hеntаі","МІLF","Віg Dісk","Fеmаlе Оrgаsm","Mаturе","gау","Аmаtеur","Thrееsоmе","аnаl","Jаpаnеsе","Bіg Тіts","рublіс","Еbоnу","Lеsbіаn","Tееn","russіаn"]}
+16:21:43.017 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:43:50.610 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:43:50.616 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630442630614
+15:43:51.890 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:43:51.890 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:43:52.338 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:43:52.338 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:44:22.950 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30977 milliseconds for url: https://conduit.productionready.io/api/tags
+15:44:22.950 [pool-1-thread-2] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30914 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+15:44:22.951 [pool-1-thread-2] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:16
+When method Get
+http call failed after 30914 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+classpath:conduit/feature/HomePage.feature:16
+15:44:22.951 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:6
+When method Get
+http call failed after 30977 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:6
+15:44:23.502 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:46:43.463 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:46:43.468 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630442803467
+15:46:44.416 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:44.414 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:44.780 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:44.780 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:02.488 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 17705
+1 < 200
+1 < Date: Tue, 31 Aug 2021 20:47:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"83233f84d12e2642b1d547333eaf0dbf"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: f50ecb0f-669e-4581-a04c-529ea6d9baa1
+1 < x-runtime: 16.960416
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EziWVY0YhMKqScJ%2BkrL0HR7mCldTwhhQiAafM2Q6zte5KTgdMVouhKUjQTnSSgIKTYTDQsdzoOVgx%2FYvaWbosoSKl2O%2BsSJu2fY3RPgnrRQnWBInIb3dRyy3H76Nj1lGjnoWmxrgR4w7FlmiVg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68791c2c2e703eb8-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"fgf","slug":"fgf-9xalba","body":"gfg","createdAt":"2021-08-31T20:43:05.524Z","updatedAt":"2021-08-31T20:43:05.524Z","tagList":[],"description":"gfgfgf","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"ds","slug":"ds-hu4jhb","body":"sdsd","createdAt":"2021-08-31T20:41:24.167Z","updatedAt":"2021-08-31T20:41:24.167Z","tagList":[],"description":"sdsd","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-umzj9x","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T20:26:02.259Z","updatedAt":"2021-08-31T20:26:02.259Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-956xf","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:10:14.081Z","updatedAt":"2021-08-31T20:10:14.081Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy899496554","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ow6r7k","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:44.802Z","updatedAt":"2021-08-31T20:07:44.802Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy983710622","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-wdejmz","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:25.501Z","updatedAt":"2021-08-31T20:07:25.501Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy561667452","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-1pwwfu","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:04.178Z","updatedAt":"2021-08-31T20:07:04.178Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy749820361","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-lln6t6","body":"Test can edit an article. https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:52.382Z","updatedAt":"2021-08-31T20:05:54.665Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy794959260","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-r8whzz","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:51.291Z","updatedAt":"2021-08-31T20:05:51.291Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy746454402","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-lm6hlf","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:49.949Z","updatedAt":"2021-08-31T20:05:49.949Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy907664944","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+15:47:15.006 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/tags
+15:47:15.007 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+15:47:15.544 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:52:11.025 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:52:11.030 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630443131029
+15:52:11.992 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:52:11.992 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:52:12.322 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:52:12.322 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:52:42.659 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30614 milliseconds for url: https://conduit.productionready.io/api/tags
+15:52:42.659 [pool-1-thread-2] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30561 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+15:52:42.661 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30614 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+15:52:42.661 [pool-1-thread-2] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:17
+When method Get
+http call failed after 30561 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+classpath:conduit/feature/HomePage.feature:17
+15:52:43.171 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:52:51.179 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:52:51.183 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630443171182
+15:52:52.111 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:52:52.111 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:52:52.456 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:52:52.456 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:53:22.700 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/tags
+15:53:22.700 [pool-1-thread-2] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30488 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+15:53:22.701 [pool-1-thread-2] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:17
+When method Get
+http call failed after 30488 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+classpath:conduit/feature/HomePage.feature:17
+15:53:22.701 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+15:53:23.226 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:56:54.689 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:56:54.694 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630443414693
+15:56:55.630 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:56:55.630 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:56:55.970 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:56:55.970 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:57:10.760 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 14787
+1 < 200
+1 < Date: Tue, 31 Aug 2021 20:57:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"83233f84d12e2642b1d547333eaf0dbf"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: be9bedcf-bdfb-4048-9df4-b3b11d671b16
+1 < x-runtime: 10.660339
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p6cG15MFe22RCiCENnBLJTly9wpPCT%2B5Pd%2F8mSomAEs%2Fr6qJIpL%2BouUys3ogp9mX7pRquc6fsJie1dn%2FdpIUf6tphKseRGPCIvVxP4TQtn6ayw87Gz5S6RwoDziC9%2FPPl2x5SKquoe3do3eeSQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68792b182b8b3ed7-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"fgf","slug":"fgf-9xalba","body":"gfg","createdAt":"2021-08-31T20:43:05.524Z","updatedAt":"2021-08-31T20:43:05.524Z","tagList":[],"description":"gfgfgf","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"ds","slug":"ds-hu4jhb","body":"sdsd","createdAt":"2021-08-31T20:41:24.167Z","updatedAt":"2021-08-31T20:41:24.167Z","tagList":[],"description":"sdsd","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-umzj9x","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T20:26:02.259Z","updatedAt":"2021-08-31T20:26:02.259Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-956xf","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:10:14.081Z","updatedAt":"2021-08-31T20:10:14.081Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy899496554","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ow6r7k","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:44.802Z","updatedAt":"2021-08-31T20:07:44.802Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy983710622","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-wdejmz","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:25.501Z","updatedAt":"2021-08-31T20:07:25.501Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy561667452","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-1pwwfu","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:04.178Z","updatedAt":"2021-08-31T20:07:04.178Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy749820361","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-lln6t6","body":"Test can edit an article. https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:52.382Z","updatedAt":"2021-08-31T20:05:54.665Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy794959260","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-r8whzz","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:51.291Z","updatedAt":"2021-08-31T20:05:51.291Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy746454402","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"My post title","slug":"my-post-title-lm6hlf","body":"Simple automation project https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:05:49.949Z","updatedAt":"2021-08-31T20:05:49.949Z","tagList":["test-automation","cypress"],"description":"Cypress","author":{"username":"cy907664944","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+15:57:26.194 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30506 milliseconds for url: https://conduit.productionready.io/api/tags
+15:57:26.195 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30506 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+15:57:26.720 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+15:57:41.009 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:57:41.014 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630443461012
+15:57:41.942 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:57:41.942 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:57:42.293 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:57:42.293 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:58:12.654 [pool-1-thread-2] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30606 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+15:58:12.654 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30653 milliseconds for url: https://conduit.productionready.io/api/tags
+15:58:12.656 [pool-1-thread-2] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:17
+When method Get
+http call failed after 30606 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+classpath:conduit/feature/HomePage.feature:17
+15:58:12.656 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30653 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+15:58:13.195 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:03:39.131 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:03:39.137 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630443819135
+16:03:40.077 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:03:40.077 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:03:40.412 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:03:40.412 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:04:10.715 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30583 milliseconds for url: https://conduit.productionready.io/api/tags
+16:04:10.715 [pool-1-thread-2] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+16:04:10.717 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30583 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+16:04:10.717 [pool-1-thread-2] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:17
+When method Get
+http call failed after 30533 milliseconds for url: https://conduit.productionready.io/api/articles?offset=0&limit=10
+classpath:conduit/feature/HomePage.feature:17
+16:04:11.247 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:13:01.769 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:13:01.773 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630444381772
+16:13:02.683 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:13:02.683 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:13:03.029 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:13:03.029 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:13:09.171 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 6137
+1 < 200
+1 < Date: Tue, 31 Aug 2021 21:13:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"5aa78f1f956b9ae5089122bd9c894498"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: f00d59a2-495a-4a14-a6b1-2709051df8e6
+1 < x-runtime: 5.287794
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YkYF0Cgi5mFVwX0zsj5x3iPf2k%2BcbvLHVpzU8jVXr9X4hW8GADb7eh0uqKF7zrqlM%2FNGbnFe4d%2ByBtLJpSEmpG%2FrsCf2stUeQ5DlJR21tCeWbFhaECLIxWhurFnNDPkR3ag2bVX1sDd9jCh3Tw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 687942b4da61da9e-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"New Article","slug":"new-article-y4ipsq","body":"Text of article","createdAt":"2021-08-31T21:11:59.067Z","updatedAt":"2021-08-31T21:11:59.067Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-q34uj9","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T21:10:34.502Z","updatedAt":"2021-08-31T21:10:34.502Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy694307562","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-ipn1hj","body":"Text of article","createdAt":"2021-08-31T21:00:34.470Z","updatedAt":"2021-08-31T21:00:34.470Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"fgf","slug":"fgf-9xalba","body":"gfg","createdAt":"2021-08-31T20:43:05.524Z","updatedAt":"2021-08-31T20:43:05.524Z","tagList":[],"description":"gfgfgf","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"ds","slug":"ds-hu4jhb","body":"sdsd","createdAt":"2021-08-31T20:41:24.167Z","updatedAt":"2021-08-31T20:41:24.167Z","tagList":[],"description":"sdsd","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-umzj9x","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T20:26:02.259Z","updatedAt":"2021-08-31T20:26:02.259Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-956xf","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:10:14.081Z","updatedAt":"2021-08-31T20:10:14.081Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy899496554","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-ow6r7k","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:44.802Z","updatedAt":"2021-08-31T20:07:44.802Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy983710622","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-wdejmz","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:25.501Z","updatedAt":"2021-08-31T20:07:25.501Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy561667452","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-1pwwfu","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:07:04.178Z","updatedAt":"2021-08-31T20:07:04.178Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy749820361","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0}],"articlesCount":500}
+16:13:33.324 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30584 milliseconds for url: https://conduit.productionready.io/api/tags
+16:13:33.325 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30584 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+16:13:33.848 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+16:18:21.340 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:18:21.344 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630444701343
+16:18:22.293 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:22.293 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:22.662 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:18:22.662 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:18:39.648 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 16979
+1 < 200
+1 < Date: Tue, 31 Aug 2021 21:18:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"f649ed97f6f7abb5fa7620cdca263347"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 3fa1e42e-46e4-44d1-ac24-54e5568c263a
+1 < x-runtime: 16.289663
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tTL0OUH8ltyokFVHt2iGju%2BhOpTzBbTKPzUq%2FYFWf3SkREGfZpLlGdYK41ABRQsBUkgVaTnC9dmM1bCwMdqpFoHuipmJKHGdCxwnuFoXzOGhxWRa0amylko6hYIDId47XY1jXlQEX3Sm2JW%2BUg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68794a82dcd43efa-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"This is a title","slug":"this-is-a-title-l5wtse","body":"This is a body of the Article","createdAt":"2021-08-31T21:17:45.231Z","updatedAt":"2021-08-31T21:17:45.231Z","tagList":[],"description":"This is a description","author":{"username":"bulloa","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-1rg6y3","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T21:17:36.034Z","updatedAt":"2021-08-31T21:17:36.034Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-6k4nkn","body":"Text of article","createdAt":"2021-08-31T21:16:57.632Z","updatedAt":"2021-08-31T21:16:57.632Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-y4ipsq","body":"Text of article","createdAt":"2021-08-31T21:11:59.067Z","updatedAt":"2021-08-31T21:11:59.067Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-q34uj9","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T21:10:34.502Z","updatedAt":"2021-08-31T21:10:34.502Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy694307562","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-ipn1hj","body":"Text of article","createdAt":"2021-08-31T21:00:34.470Z","updatedAt":"2021-08-31T21:00:34.470Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"fgf","slug":"fgf-9xalba","body":"gfg","createdAt":"2021-08-31T20:43:05.524Z","updatedAt":"2021-08-31T20:43:05.524Z","tagList":[],"description":"gfgfgf","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"ds","slug":"ds-hu4jhb","body":"sdsd","createdAt":"2021-08-31T20:41:24.167Z","updatedAt":"2021-08-31T20:41:24.167Z","tagList":[],"description":"sdsd","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-umzj9x","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T20:26:02.259Z","updatedAt":"2021-08-31T20:26:02.259Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-956xf","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:10:14.081Z","updatedAt":"2021-08-31T20:10:14.081Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy899496554","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1}],"articlesCount":500}
+16:18:52.982 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+16:18:52.983 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+16:18:53.525 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature

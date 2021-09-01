@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="conduit.ConduitTest" time="32.915" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\judhm\Documents\KarateProject\karatebase\target\test-classes;C:\Users\judhm\Documents\KarateProject\karatebase\target\classes;C:\Users\judhm\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\judhm\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\judhm\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\judhm\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\judhm\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\judhm\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\judhm\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\judhm\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\judhm\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\judhm\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\judhm\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\judhm\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\judhm\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\judhm\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\judhm\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\judhm\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\judhm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\judhm\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\judhm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\judhm\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\judhm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\judhm\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\judhm\AppData\Local\Temp\surefire1324952778853152139\surefirebooter7692811049785138852.jar C:\Users\judhm\AppData\Local\Temp\surefire1324952778853152139 2021-08-31T16-18-19_872-jvmRun1 surefire709442494683670270tmp surefire_01379474461940190217tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\judhm\Documents\KarateProject\karatebase\target\test-classes;C:\Users\judhm\Documents\KarateProject\karatebase\target\classes;C:\Users\judhm\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\judhm\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\judhm\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\judhm\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\judhm\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\judhm\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\judhm\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\judhm\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\judhm\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\judhm\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\judhm\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\judhm\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\judhm\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\judhm\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\judhm\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\judhm\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\judhm\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\judhm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\judhm\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\judhm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\judhm\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\judhm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\judhm\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\judhm"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\judhm\Documents\KarateProject\karatebase"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\judhm\AppData\Local\Temp\surefire1324952778853152139\surefirebooter7692811049785138852.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="judhm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\judhm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\judhm\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\judhm\Documents\KarateProject\karatebase"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.10\bin;C:\gradle-6.8.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\maven\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\judhm\AppData\Local\Microsoft\WindowsApps;;C:\Users\judhm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\judhm\AppData\Roaming\npm;C:\Users\judhm\AppData\Local\Yarn\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testParallel" classname="conduit.ConduitTest" time="32.905">
+    <failure message="http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags&#10;classpath:conduit/feature/HomePage.feature:8 ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8 ==> expected: <0> but was: <1>
+	at conduit.ConduitTest.testParallel(ConduitTest.java:15)
+]]></failure>
+    <system-out><![CDATA[16:18:21.340 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:18:21.344 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1630444701343
+16:18:22.293 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:22.293 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:18:22.662 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/articles?offset=0&limit=10
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:18:22.662 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://conduit.productionready.io/api/tags
+1 > Host: conduit.productionready.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:18:39.648 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 16979
+1 < 200
+1 < Date: Tue, 31 Aug 2021 21:18:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < cache-control: max-age=0, private, must-revalidate
+1 < etag: W/"f649ed97f6f7abb5fa7620cdca263347"
+1 < status: 200 OK
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-frame-options: SAMEORIGIN
+1 < x-powered-by: Phusion Passenger 4.0.60
+1 < x-request-id: 3fa1e42e-46e4-44d1-ac24-54e5568c263a
+1 < x-runtime: 16.289663
+1 < x-xss-protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tTL0OUH8ltyokFVHt2iGju%2BhOpTzBbTKPzUq%2FYFWf3SkREGfZpLlGdYK41ABRQsBUkgVaTnC9dmM1bCwMdqpFoHuipmJKHGdCxwnuFoXzOGhxWRa0amylko6hYIDId47XY1jXlQEX3Sm2JW%2BUg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 68794a82dcd43efa-BOG
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"articles":[{"title":"This is a title","slug":"this-is-a-title-l5wtse","body":"This is a body of the Article","createdAt":"2021-08-31T21:17:45.231Z","updatedAt":"2021-08-31T21:17:45.231Z","tagList":[],"description":"This is a description","author":{"username":"bulloa","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-1rg6y3","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T21:17:36.034Z","updatedAt":"2021-08-31T21:17:36.034Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-6k4nkn","body":"Text of article","createdAt":"2021-08-31T21:16:57.632Z","updatedAt":"2021-08-31T21:16:57.632Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-y4ipsq","body":"Text of article","createdAt":"2021-08-31T21:11:59.067Z","updatedAt":"2021-08-31T21:11:59.067Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-q34uj9","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T21:10:34.502Z","updatedAt":"2021-08-31T21:10:34.502Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy694307562","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"New Article","slug":"new-article-ipn1hj","body":"Text of article","createdAt":"2021-08-31T21:00:34.470Z","updatedAt":"2021-08-31T21:00:34.470Z","tagList":[],"description":"Description of new article","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"fgf","slug":"fgf-9xalba","body":"gfg","createdAt":"2021-08-31T20:43:05.524Z","updatedAt":"2021-08-31T20:43:05.524Z","tagList":[],"description":"gfgfgf","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"ds","slug":"ds-hu4jhb","body":"sdsd","createdAt":"2021-08-31T20:41:24.167Z","updatedAt":"2021-08-31T20:41:24.167Z","tagList":[],"description":"sdsd","author":{"username":"jsolis29@gmail.com","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Grupo Primo","slug":"grupo-primo-umzj9x","body":"Follow @thiago.nigro on Instagram","createdAt":"2021-08-31T20:26:02.259Z","updatedAt":"2021-08-31T20:26:02.259Z","tagList":[],"description":"Best investment and entrepreneur content","author":{"username":"Grupo Primo","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":0},{"title":"Article created by Cypress test","slug":"article-created-by-cypress-test-956xf","body":"This article is created with Cypress. See code here: https://github.com/helenanull/cypress-example","createdAt":"2021-08-31T20:10:14.081Z","updatedAt":"2021-08-31T20:10:14.081Z","tagList":["test-automation","simple","cypress"],"description":"https://github.com/helenanull/cypress-example","author":{"username":"cy899496554","bio":null,"image":"https://static.productionready.io/images/smiley-cyrus.jpg","following":false},"favorited":false,"favoritesCount":1}],"articlesCount":500}
+16:18:52.982 [pool-1-thread-1] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+16:18:52.983 [pool-1-thread-1] ERROR com.intuit.karate - classpath:conduit/feature/HomePage.feature:8
+When method Get
+http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+---------------------------------------------------------
+feature: classpath:conduit/feature/HomePage.feature
+scenarios:  2 | passed:  1 | failed:  1 | time: 47,9303
+---------------------------------------------------------
+
+16:18:53.525 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:conduit/feature/HomePage.feature
+Karate version: 1.1.0
+======================================================
+elapsed:  32,63 | threads:    5 | thread time: 47,93 
+features:     1 | skipped:    0 | efficiency: 0,29
+scenarios:    2 | passed:     1 | failed: 1
+======================================================
+>>> failed features:
+http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/judhm/Documents/KarateProject/karatebase/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

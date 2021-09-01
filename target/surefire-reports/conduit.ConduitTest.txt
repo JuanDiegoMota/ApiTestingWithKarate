@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: conduit.ConduitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.915 s <<< FAILURE! - in conduit.ConduitTest
+testParallel  Time elapsed: 32.905 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+http call failed after 30619 milliseconds for url: https://conduit.productionready.io/api/tags
+classpath:conduit/feature/HomePage.feature:8 ==> expected: <0> but was: <1>
+	at conduit.ConduitTest.testParallel(ConduitTest.java:15)
+
